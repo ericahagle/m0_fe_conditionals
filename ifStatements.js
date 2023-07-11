@@ -10,8 +10,18 @@
 
 var numQuarters = 0;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+// var numQuarters = 2;
+
+// var numQuarters = 3;
+
+if (numQuarters >= 2) {
+    console.log("I have enough money for a gumball");
+} else {
+    console.log("I don't have enough money for a gumball");
+}
+
+
+
 
 
 // CHALLENGE 2
@@ -29,3 +39,17 @@ console.log("I don't have enough money for a gumball");
 var cupsOfFlour = 1;
 var hasSauce = true;
 
+// var cupsOfFlour = 5;
+// var hasSauce = false;
+
+// var cupsOfFlour = 2;
+// var hasSauce = true;
+
+// var cupsOfFlour = 3;
+// var hasSauce = true;
+
+if ((cupsOfFlour === 1 && hasSauce === true) || (cupsOfFlour === 5 && hasSauce === false)) {
+    console.log("I cannot make pizza");
+} else if ((cupsOfFlour === 2 && hasSauce === true) || (cupsOfFlour === 3 && hasSauce === true)) {
+    console.log("I can make pizza");
+}
